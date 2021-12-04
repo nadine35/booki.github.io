@@ -1,0 +1,1088 @@
+/*@media Queries*/
+@media (min-width:1200px) {
+
+    .container,
+    header {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+    }
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+
+}
+
+nav {
+    display: flex;
+}
+
+h2 {
+
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#activites {
+
+    margin-bottom: 30px;
+}
+
+
+
+.filtres .margFiltreTitre {
+
+    display: flex;
+}
+
+/* info icone*/
+.info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+
+}
+
+.parentIcon {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #0065fc;
+    margin-right: 15px;
+}
+
+.etoileIcon {
+
+    color: #0065fc;
+
+}
+
+.fas.fa-star.disabled {
+    color: #f2f2f2;
+}
+
+
+
+/*coloris de fond bleu imposé*/
+.backBleu {
+
+    background-color: #0065FC;
+}
+
+/*elements de la liste du menu navigation qui changent de coloris au survol*/
+nav li:hover {
+
+    border-top: 1px solid #0065FC;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/*haut de la page web qui comprend le logo et le menu nav*/
+header {
+
+    display: flex;
+}
+
+/*élément titre principal*/
+h1 {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#liste-nav {
+
+    margin: 0;
+    display: flex;
+    padding: 0;
+
+}
+
+/* logo booki*/
+.logo {
+    background-image: url(../images/logo/Booki.png);
+    padding-top: 20px;
+    flex-grow: 1;
+    display: block;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+header {
+
+    height: 100px;
+}
+
+.titrePopulaires {
+
+    display: flex;
+    align-items: center;
+}
+
+.aside a {
+    display: flex;
+
+
+}
+
+.aside .image {
+
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.cubeDetailPopulaires {
+
+    width: 60%;
+    padding-left: 10px;
+}
+
+.cubeDetailPopulaires .etoileIcon {
+
+    margin-top: 40px;
+}
+
+#liste-nav li a:hover {
+    text-decoration: #C9F2FF;
+    color: #0065FC;
+}
+
+#liste-nav li {
+    padding: 0 50px;
+    align-items: center;
+    display: flex;
+
+
+}
+
+/*titre filtre */
+.filtres {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.filtresChoice {
+    display: flex;
+}
+
+.etoileIcon {
+
+    color: #0065FC;
+}
+
+.container,
+header {
+    padding: 0 15px;
+
+}
+
+#liste-nav li a:active {
+    border: 1px solid #000;
+}
+
+.aside {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px 0px 30px;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+li a {
+
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+
+/*div des filtres*/
+
+.flexCenter {
+    display: flex;
+    border: none;
+
+}
+
+.flexCenter input {
+
+    height: 50px;
+
+    font-size: 18px;
+    border: none;
+    margin-left: 10px;
+
+
+}
+
+/* icône de recherche div filtre de recherche*/
+
+.iconSize {
+
+    width: 50px;
+    height: 52px;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+
+
+/*div recherche ville*/
+
+.recherche {
+
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+
+}
+
+/* div bouton de recherche ville*/
+
+.buttonSearch {
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    width: 120px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* marge du titre filtre */
+.margFiltreTitre {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* icône et texte des filtres*/
+
+.filtreTexteIcons {
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.filtreTexteIcons :hover {
+
+    color: indianred;
+    position: relative;
+
+}
+
+/*annonce hebergements*/
+.annonce {
+
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 2px 3px 8px #d0d0d0;
+    width: 30%;
+    margin: 10px;
+}
+
+.descriptionHebergements {
+
+    margin-bottom: 5px;
+    margin: 8px;
+}
+
+/* texte des filtres proposés*/
+.btn-filtres {
+
+    padding-left: 10px;
+    font-weight: bold;
+    padding-right: 20px;
+
+}
+
+/* div contenant les icônes et les types des filtres*/
+
+.filtreIcons {
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titreHebergements {
+
+    display: flex;
+
+}
+
+/*bloc des hébergements et de sa différenciation : bloc populaire*/
+#resultats {
+
+    display: flex;
+
+
+}
+
+/* bloc hébergements*/
+.hebergements {
+
+
+    background: #f2f2f2;
+    margin-right: 2%;
+    padding: 30px 10px 30px 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 60%;
+
+}
+
+/* bloc populaire*/
+.popularResults {
+
+
+    padding: 20px 50px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 20px;
+
+
+}
+
+.resultats-hebergements {
+
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.plus {
+    color: black;
+    margin-top: 20px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: black;
+
+}
+
+.backBleu.mobile {
+
+    display: none;
+}
+
+.plus a:hover {
+    color: #0065FC;
+
+}
+
+.fas.fa-chart-line.fa-2x {
+
+    margin-left: 40px;
+
+}
+
+* {
+    box-sizing: border-box;
+    /* box-sizing est appliqué à tous les éléments */
+}
+
+
+
+/* bloc de l'ensemble des activités à Marseille */
+.activites {
+    display: flex;
+    margin-right: 40px;
+
+
+}
+
+/* 1er bloc d'activités*/
+.activites-left {
+
+    flex: 1;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+/*2ème bloc d'activités*/
+.activites-right {
+
+    flex: 1;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.bordure-grde-image {
+
+    width: 100%;
+    border-radius: 15px;
+
+    box-shadow: 2px 3px 8px #d0d0d0;
+
+}
+
+.bordure-petite-image {
+
+    width: 100%;
+    border-radius: 15px;
+
+    box-shadow: 2px 3px 8px #d0d0d0;
+
+}
+
+/* classe images en row de la partie div sizeActivity*/
+
+
+.cube-grde-image {
+
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/* classe images en colonnes de la partie div sizeActivity*/
+
+.cube-petite-image {
+
+    width: 50%;
+    margin-left: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.hebergements .images {
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+    height: 130px;
+    margin: 4px;
+}
+
+.grde-image {
+    background-image: url(images/activites/4_small/imgVieuxPort.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+
+
+}
+
+#imgVieuxPort {
+    background-image: url(../images/activites/4_small/imgVieuxPort.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+
+
+}
+
+#imgCalanques {
+    background-image: url(../images/activites/4_small/parc-calanques.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+#imgPomegues {
+    background-image: url(../images/activites/4_small/fort-de-pomegues.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+    height: 150px;
+}
+
+#imgFrioul {
+    background-image: url(../images/activites/4_small/iles-frioul.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+#imgNotreDame {
+    background-image: url(../images/activites/4_small/notre-dame-la-garde.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+#imgParcLongchamp {
+    background-image: url(../images/activites/4_small/parc-longchamp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+/*description des activités*/
+
+.cube-details-activites {
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+footer {
+
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    background-color: #f2f2f2;
+
+}
+
+/*bloc du footer flexbox */
+footer .container {
+
+    display: flex;
+}
+
+.container .footer-propos,
+.footer-hebergements,
+.footer-assistance {
+
+    width: 33%;
+
+}
+
+.footer-propos h3 {
+
+    margin: 10px;
+}
+
+.footer-hebergements h3 {
+
+    margin: 10px;
+}
+
+.footer-assistance h3 {
+
+    margin: 10px;
+}
+
+ul.liste-footer,
+.liste-hebergements,
+.liste-footer {
+    padding: 0;
+}
+
+
+.liste-propos li,
+.liste-hebergements li,
+.liste-footer li {
+    list-style-type: none;
+
+}
+
+footer {
+
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+p {
+    color: black;
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+    #resultats {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .popularResults {
+
+        margin-right: 0;
+    }
+
+}
+
+
+/*tablette*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    .container,
+    header {
+
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    #resultats {
+
+        flex-direction: column;
+    }
+
+    #liste-nav li a:hover {
+        text-decoration: #C9F2FF;
+        color: #0065FC;
+    }
+
+
+    nav {
+
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .activites-left {
+
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .activites-right {
+
+        margin-left: 0;
+    }
+
+    .bordure-petite-image {
+        margin-bottom: 20px;
+    }
+
+    .margFiltreTitre {
+
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .cube-petite-image {
+        padding-right: 30px;
+        justify-content: initial;
+
+    }
+
+    .cube-grde-image {
+
+        margin-right: 20px;
+    }
+
+
+
+    .bordure-grde-image {
+
+        margin-right: 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .bordure-petite-image {
+
+        flex-grow: 1;
+        margin-bottom: 15px;
+
+    }
+
+    #imgPomegues {
+
+        height: 225px;
+    }
+
+    #imgParcLongchamp {
+
+        height: 225px;
+    }
+
+    .popularResults {
+
+        width: 100vw;
+        border-radius: inherit;
+    }
+
+
+    .hebergements {
+        width: 100vw;
+        margin-bottom: 20px;
+        border-radius: inherit;
+    }
+
+    .activites {
+        flex-direction: column;
+
+    }
+
+    #titre-activites,
+    h2 {
+
+        margin: 20px;
+    }
+
+
+
+    .logo {
+
+
+        width: 450px;
+    }
+
+
+    footer .container {
+
+        padding-left: 10px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: auto;
+        padding: 0;
+    }
+
+    header {
+        flex-direction: column;
+        height: 130px;
+    }
+
+
+    .bande-annonce h1 {
+
+        font-size: 30px;
+    }
+
+    .logo {
+        background-image: url(../images/logo/Booki@3x.png);
+
+        width: 160px;
+        margin: 0 auto;
+
+        background-size: contain;
+    }
+
+    nav {
+
+        display: block;
+    }
+
+
+    #liste-nav li a:hover {
+        text-decoration: #C9F2FF;
+        color: #0065FC;
+    }
+
+    #liste-nav li {
+
+        border-top: none;
+        padding-bottom: 10px;
+        margin: 0;
+        width: 100%;
+        border-bottom: 4px solid#f2f2f2;
+        justify-content: center;
+        display: flex;
+
+    }
+
+
+    .bordure-petite-image {
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .cubeDetailPopulaires {
+
+        padding-left: 20px;
+        padding-right: 50px;
+        margin-bottom: 10px;
+    }
+
+    .etoileIcon {
+
+        padding: 0;
+    }
+
+
+    #liste-nav li:last-child {
+
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    .ville {
+
+
+        flex-grow: 1;
+        border: 1px solid #f2f2f2;
+    }
+
+    .populaires {
+
+        margin: 15px;
+    }
+
+    .filtres {
+
+        display: block;
+    }
+
+    .filtreTexteIcons {
+
+        margin: 5px;
+
+    }
+
+    .filtreTexteIcons :hover {
+
+        color: indianred;
+        position: relative;
+
+    }
+
+    .filtreIcons :hover {
+        transition-duration: 1s;
+        transition-property: transform;
+        transform: rotate(360deg);
+    }
+
+    .bande-annonce {
+
+        padding-top: 0;
+        margin-top: 50px;
+        margin: 10px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+
+    #liste-nav li:hover {
+
+        border-bottom: 3px solid#0065fc;
+    }
+
+    .margFiltreTitre {
+
+        flex-direction: column;
+    }
+
+    .filtresChoice {
+
+        flex-wrap: wrap;
+    }
+
+    #hebergements,
+    h2 {
+
+        margin-left: 10px;
+        margin-bottom: 0;
+
+
+    }
+
+    #titre-activites,
+    h2 {
+
+        margin-left: 15px;
+    }
+
+    .titrePopulaires {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+    }
+
+    #resultats {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        display: flex;
+
+
+    }
+
+    .fas.fa-chart-line.fa-2x {
+        margin: 15px;
+    }
+
+    .hebergements {
+        padding: 0;
+        width: 100%;
+        background-color: white;
+
+    }
+
+    .popularResults {
+        width: 100vw;
+        border-radius: inherit;
+    }
+
+    .activites #imgVieuxPort,
+    #imgCalanques {
+        height: 185px;
+        background-position: right 0% top 15%;
+
+    }
+
+    ul.listePropos {
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .resultats-hebergements {
+
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .annonce {
+
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .activites {
+        flex-direction: column;
+        margin: 20px;
+
+    }
+
+    .cube-grde-image {
+        width: 100%;
+
+        padding-bottom: 10px;
+
+    }
+
+    .cube-petite-image {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 10px;
+
+    }
+
+    .activites-left {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .activites-right {
+
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    footer .container {
+
+        flex-direction: column;
+
+    }
+
+    .buttonSearch {
+
+        display: none;
+    }
+
+    .backBleu.mobile {
+
+        display: flex;
+        height: 52px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 15px;
+        width: 50px;
+    }
+
+    .fas.fa-search {
+        color: white;
+    }
+
+    .container .footer-propos,
+    .footer-hebergements,
+    .footer-assistance {
+
+        width: 100%;
+
+    }
+
+    .filtres {
+        flex-direction: column;
+    }
+
+}
